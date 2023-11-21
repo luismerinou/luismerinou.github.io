@@ -11569,6 +11569,16 @@ html {
   border-radius: 1rem !important;
 }
 
+.gradient-button {
+  background: linear-gradient(to right, #22c1c3 0%, #fdbb2d 100%);
+  color: #fff;
+  transition: background 0.3s ease;
+}
+
+.gradient-button:hover {
+  background: linear-gradient(to left, #22c1c3 0%, #fdbb2d 100%);
+}
+
 .feature {
   display: inline-flex;
   align-items: center;
