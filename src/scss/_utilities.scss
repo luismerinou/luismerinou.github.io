@@ -19,3 +19,14 @@
 .rounded-4 {
     border-radius: $border-radius-xl !important;
 }
+
+
+.gradient-button {
+  background: linear-gradient(to right,  $primary 0%, $secondary 100%);
+  color: #fff;
+  transition: background 0.3s ease;
+}
+
+.gradient-button:hover {
+  background: linear-gradient(to left, $primary 0%, $secondary 100%);
+}
