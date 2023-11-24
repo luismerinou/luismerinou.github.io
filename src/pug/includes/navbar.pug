@@ -1,4 +1,4 @@
-nav.navbar.sticky-top.navbar-expand-lg.navbar-light.bg-white.py-3
+nav.navbar.sticky-top.navbar-expand-lg.navbar-light.bg-white.py-3(id="navbar")
     .container.px-5
         a.navbar-brand(href='index.html')
             span.fw-bolder.text-gradient Luis Merino Ulizarna
@@ -14,3 +14,8 @@ nav.navbar.sticky-top.navbar-expand-lg.navbar-light.bg-white.py-3
                     a.nav-link(href='projects.html') Projects
                 li.nav-item
                     a.nav-link(href='contact.html') Contact
+                li.nav-item
+                    div.nav-link
+                     div.form-switch
+                            input.form-check-input(type='checkbox', id='theme-toggle')
+                            label.form-check-label(for='theme-toggle')
