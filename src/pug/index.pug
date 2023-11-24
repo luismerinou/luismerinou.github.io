@@ -36,7 +36,7 @@ html(lang='en')
                                     span.text-gradient.d-inline AI enthusiast
                                 .d-grid.gap-3.d-sm-flex.justify-content-sm-center.justify-content-xxl-start.mb-3
                                     a.btn.btn-primary.btn-lg.px-5.py-3.me-sm-3.fs-6.fw-bolder(href='resume.html', style='color: white') Curriculum
-                                    a.btn.btn-outline-dark.btn-lg.px-5.py-3.fs-6.fw-bolder(href='projects.html') Projects
+                                    a.btn.btn-outline-dark.btn-lg.px-5.py-3.fs-6.fw-bolder(href='projects.html', id='projects-btn') Projects
                         .col-xxl-7
                             // Header profile picture
                             .d-flex.justify-content-center.mt-5.mt-xxl-0
@@ -54,7 +54,7 @@ html(lang='en')
                                         include includes/svg-dots.pug
 
             // About Section
-            section.bg-light.py-10
+            section.bg-light.py-10(id="theme")
                 .container.px-5
                     .row.gx-5.justify-content-center
                         .col-xxl-8
