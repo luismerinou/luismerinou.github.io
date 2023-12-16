@@ -4,8 +4,10 @@ name: GPT Commits summarizer
 # review page, compile a PR summary from all commit summaries and file diff 
 # summaries, and delete outdated code review comments
 
-on: [push]
-
+on:
+  pull_request:
+    types: [opened, synchronize]
+    
 jobs:
   summarize:
     runs-on: ubuntu-latest
