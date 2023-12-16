@@ -10,7 +10,7 @@ on:
 
 jobs:
   summarize:
-    runs-on: self-hosted
+    runs-on: ubuntu-lates
     permissions: write-all  # Some repositories need this line
 
     steps:
