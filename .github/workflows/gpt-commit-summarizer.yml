@@ -8,7 +8,7 @@ on: [push]
 
 jobs:
   summarize:
-    runs-on: ubuntu-lates
+    runs-on: ubuntu-latest
     permissions: write-all  # Some repositories need this line
 
     steps:
